@@ -1,0 +1,12 @@
+ <?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+                                   "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 11 Jul, 2019 3:17:37 PM by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping schema="bank">
+ <class name="dayTwentyTwo.Day22" table="DAY22">
+  <id name="id" type="java.lang.Long">
+   <column name="ID"/>
+   <generator class="assigned"/>
+  </id>
+ </class>
+</hibernate-mapping>

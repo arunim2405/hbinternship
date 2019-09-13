@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+                                   "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 15 Jul, 2019 11:03:40 AM by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+ <class name="dayTwentyFive.CustomerD" table="CUSTOMERD">
+  <id name="panCardNo" type="java.lang.Integer">
+   <column name="PANCARD"/>
+   <generator class="assigned"/>
+  </id>
+  <property generated="never" lazy="false" name="Name" type="string">
+   <column name="NAME"/>
+  </property>
+  <property generated="never" lazy="false" name="age" type="int">
+   <column name="AGE"/>
+  </property>
+  <property generated="never" lazy="false" name="balance" type="int">
+   <column name="BALANCE"/>
+  </property>
+ </class>
+</hibernate-mapping>
